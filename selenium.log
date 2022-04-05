@@ -1,0 +1,111 @@
+2022-04-01 09:00:14 INFO  TestBase:50 - started executing the @@BeforeSuite
+2022-04-01 09:00:14 DEBUG TestBase:51 - fetching browser value from config.properties file
+2022-04-01 09:00:14 INFO  TestBase:34 - Create Object for Properties class
+2022-04-01 09:00:14 INFO  TestBase:36 - Read the properties file
+2022-04-01 09:00:14 DEBUG TestBase:53 - launching the chrome browser 
+2022-04-01 09:00:21 INFO  TestBase:70 - maxmize the window
+2022-04-01 09:00:22 INFO  TestBase:73 - add implicitwait
+2022-04-01 09:00:22 INFO  TestBase:75 - create object for WebDriverWait class
+2022-04-01 09:00:22 INFO  TestBase:34 - Create Object for Properties class
+2022-04-01 09:00:22 INFO  TestBase:36 - Read the properties file
+2022-04-01 09:00:22 DEBUG TestBase:77 - launching the application:https://linkedin.com
+2022-04-01 09:00:22 INFO  TestBase:34 - Create Object for Properties class
+2022-04-01 09:00:22 INFO  TestBase:36 - Read the properties file
+2022-04-01 09:00:24 DEBUG SearchDataDrivenTest:75 - Initilize the page objects
+2022-04-01 09:00:24 DEBUG SearchDataDrivenTest:30 - executing the doLoginTest()....
+2022-04-01 09:00:24 DEBUG SearchDataDrivenTest:31 - ************verify linkedin home page elements & Title**************
+2022-04-01 09:00:24 DEBUG LinkedinHomePage:54 - Verify the linkedin Home page Header text element
+2022-04-01 09:00:25 DEBUG LinkedinHomePage:47 - Verify the linkedin home page title:LinkedIn: Log In or Sign Up
+2022-04-01 09:00:25 DEBUG LinkedinHomePage:59 - Verify the linkedinlogo element
+2022-04-01 09:00:25 DEBUG SearchDataDrivenTest:35 - Click on Sign in link
+2022-04-01 09:00:25 DEBUG LinkedinHomePage:64 - click on Linkedin Homepage Signin link
+2022-04-01 09:00:25 DEBUG BasePageWeb:42 - wait for the element to be clickable or not
+2022-04-01 09:00:25 DEBUG BasePageWeb:44 - click on the given element
+2022-04-01 09:00:34 DEBUG SearchDataDrivenTest:37 - *********Verify Linedin login page elements & Title****************
+2022-04-01 09:00:34 DEBUG LinkedinHomePage:75 - Verify the linkedin Signin page Header text element
+2022-04-01 09:00:34 DEBUG LinkedinHomePage:69 - Verify the linkedin Signin page title:LinkedIn Login, Sign in | LinkedIn
+2022-04-01 09:00:34 DEBUG SearchDataDrivenTest:40 - perfrom the login test
+2022-04-01 09:00:34 INFO  TestBase:34 - Create Object for Properties class
+2022-04-01 09:00:34 INFO  TestBase:36 - Read the properties file
+2022-04-01 09:00:34 INFO  TestBase:34 - Create Object for Properties class
+2022-04-01 09:00:34 INFO  TestBase:36 - Read the properties file
+2022-04-01 09:00:34 DEBUG LinkedinHomePage:85 - started executing the doLogin()...
+2022-04-01 09:00:34 DEBUG LinkedinHomePage:86 - clear the content in the email editbox
+2022-04-01 09:00:34 DEBUG BasePageWeb:78 - wait for the element to be clickable or not
+2022-04-01 09:00:35 DEBUG BasePageWeb:80 - clear the content in given editbox element
+2022-04-01 09:00:35 DEBUG LinkedinHomePage:88 - type the rameshqaonline@gmail.com in emaileditbox
+2022-04-01 09:00:35 DEBUG LinkedinHomePage:90 - clear the content in password editbox
+2022-04-01 09:00:35 DEBUG BasePageWeb:78 - wait for the element to be clickable or not
+2022-04-01 09:00:35 DEBUG BasePageWeb:80 - clear the content in given editbox element
+2022-04-01 09:00:35 DEBUG LinkedinHomePage:92 - type the password in password editbox
+2022-04-01 09:00:35 DEBUG LinkedinHomePage:80 - click on Linkedin Signin page Signin Button
+2022-04-01 09:00:35 DEBUG BasePageWeb:42 - wait for the element to be clickable or not
+2022-04-01 09:00:35 DEBUG BasePageWeb:44 - click on the given element
+2022-04-01 09:00:45 DEBUG SearchDataDrivenTest:67 - reading the excel sheet data to @Dataprovider annotation
+2022-04-01 09:00:45 DEBUG ExcelUtils:29 - Specify the path of file :D:\eclipseworkspaceAug2018\HybridFrameworkMar242022\src\test\java\com\qa\linkedin\data\searchData.xlsx
+2022-04-01 09:00:45 DEBUG ExcelUtils:32 - read the file
+2022-04-01 09:00:45 DEBUG ExcelUtils:34 - Load workbook
+2022-04-01 09:00:53 DEBUG ExcelUtils:39 - fetch the row count
+2022-04-01 09:00:53 DEBUG ExcelUtils:41 - number of rows in the excel sheet is-->8
+2022-04-01 09:00:53 DEBUG ExcelUtils:43 - number of columns in the excel sheet is -->1
+2022-04-01 09:00:53 DEBUG SearchDataDrivenTest:48 - **********Perform dosearchPeopleTest for :Sreedevi
+2022-04-01 09:00:53 DEBUG LinkedinLoggedinPage:34 - Verify the linkedin loggedin page title:Feed | LinkedIn
+2022-04-01 09:00:53 DEBUG LinkedinLoggedinPage:41 - Verify the linkedin Profile rail card element
+2022-04-01 09:00:53 DEBUG SearchDataDrivenTest:51 - Type the value  Sreedevi  in Search editbox
+2022-04-01 09:00:53 DEBUG LinkedinLoggedinPage:60 - Started executing the doPeopleSearch() for the keyword::::Sreedevi
+2022-04-01 09:00:53 DEBUG LinkedinLoggedinPage:61 - clear the content in the search editbox
+2022-04-01 09:00:53 DEBUG BasePageWeb:78 - wait for the element to be clickable or not
+2022-04-01 09:00:53 DEBUG BasePageWeb:80 - clear the content in given editbox element
+2022-04-01 09:00:53 DEBUG LinkedinLoggedinPage:63 - type the search keyword:Sreedevi in search editbox
+2022-04-01 09:00:53 DEBUG LinkedinLoggedinPage:65 - Press the ENTER key on searchEditbox
+2022-04-01 09:00:54 DEBUG SearchDataDrivenTest:53 - fetch the search results count for:Sreedevi
+2022-04-01 09:00:54 DEBUG SearchResultsPage:31 - Verify the Search Results page title:Search | LinkedIn
+2022-04-01 09:00:55 DEBUG SearchResultsPage:37 - click on see All People results link
+2022-04-01 09:00:55 DEBUG BasePageWeb:42 - wait for the element to be clickable or not
+2022-04-01 09:00:55 DEBUG BasePageWeb:44 - click on the given element
+2022-04-01 09:00:56 DEBUG SearchResultsPage:58 - fetch the results count text
+2022-04-01 09:00:57 DEBUG SearchResultsPage:60 - Search results text is:About 17,000 results
+2022-04-01 09:00:57 DEBUG SearchDataDrivenTest:56 - searc hresults count for:Sreedevi is:17000
+2022-04-01 09:00:57 DEBUG SearchDataDrivenTest:61 - click on Home tb
+2022-04-01 09:00:57 DEBUG SearchResultsPage:42 - click on Home tab
+2022-04-01 09:00:57 DEBUG BasePageWeb:42 - wait for the element to be clickable or not
+2022-04-01 09:00:57 DEBUG BasePageWeb:44 - click on the given element
+2022-04-01 09:00:57 DEBUG SearchDataDrivenTest:48 - **********Perform dosearchPeopleTest for :Muniraja
+2022-04-01 09:00:57 DEBUG LinkedinLoggedinPage:34 - Verify the linkedin loggedin page title:Feed | LinkedIn
+2022-04-01 09:00:58 DEBUG LinkedinLoggedinPage:41 - Verify the linkedin Profile rail card element
+2022-04-01 09:00:58 DEBUG SearchDataDrivenTest:51 - Type the value  Muniraja  in Search editbox
+2022-04-01 09:00:58 DEBUG LinkedinLoggedinPage:60 - Started executing the doPeopleSearch() for the keyword::::Muniraja
+2022-04-01 09:00:58 DEBUG LinkedinLoggedinPage:61 - clear the content in the search editbox
+2022-04-01 09:00:58 DEBUG BasePageWeb:78 - wait for the element to be clickable or not
+2022-04-01 09:00:58 DEBUG BasePageWeb:80 - clear the content in given editbox element
+2022-04-01 09:00:58 DEBUG LinkedinLoggedinPage:63 - type the search keyword:Muniraja in search editbox
+2022-04-01 09:00:58 DEBUG LinkedinLoggedinPage:65 - Press the ENTER key on searchEditbox
+2022-04-01 09:00:58 DEBUG SearchDataDrivenTest:53 - fetch the search results count for:Muniraja
+2022-04-01 09:00:58 DEBUG SearchResultsPage:31 - Verify the Search Results page title:Search | LinkedIn
+2022-04-01 09:01:00 DEBUG SearchResultsPage:37 - click on see All People results link
+2022-04-01 09:01:00 DEBUG BasePageWeb:42 - wait for the element to be clickable or not
+2022-04-01 09:01:00 DEBUG BasePageWeb:44 - click on the given element
+2022-04-01 09:01:01 DEBUG SearchResultsPage:58 - fetch the results count text
+2022-04-01 09:01:01 DEBUG SearchResultsPage:60 - Search results text is:About 2,300 results
+2022-04-01 09:01:01 DEBUG SearchDataDrivenTest:56 - searc hresults count for:Muniraja is:2300
+2022-04-01 09:01:01 DEBUG SearchDataDrivenTest:61 - click on Home tb
+2022-04-01 09:01:01 DEBUG SearchResultsPage:42 - click on Home tab
+2022-04-01 09:01:01 DEBUG BasePageWeb:42 - wait for the element to be clickable or not
+2022-04-01 09:01:01 DEBUG BasePageWeb:44 - click on the given element
+2022-04-01 09:01:01 DEBUG SearchDataDrivenTest:48 - **********Perform dosearchPeopleTest for :haritha
+2022-04-01 09:01:01 DEBUG LinkedinLoggedinPage:34 - Verify the linkedin loggedin page title:Feed | LinkedIn
+2022-04-01 09:01:03 DEBUG LinkedinLoggedinPage:41 - Verify the linkedin Profile rail card element
+2022-04-01 09:01:03 DEBUG SearchDataDrivenTest:51 - Type the value  haritha  in Search editbox
+2022-04-01 09:01:03 DEBUG LinkedinLoggedinPage:60 - Started executing the doPeopleSearch() for the keyword::::haritha
+2022-04-01 09:01:03 DEBUG LinkedinLoggedinPage:61 - clear the content in the search editbox
+2022-04-01 09:01:03 DEBUG BasePageWeb:78 - wait for the element to be clickable or not
+2022-04-01 09:01:03 DEBUG BasePageWeb:80 - clear the content in given editbox element
+2022-04-01 09:01:03 DEBUG LinkedinLoggedinPage:63 - type the search keyword:haritha in search editbox
+2022-04-01 09:01:03 DEBUG LinkedinLoggedinPage:65 - Press the ENTER key on searchEditbox
+2022-04-01 09:01:03 DEBUG SearchDataDrivenTest:53 - fetch the search results count for:haritha
+2022-04-01 09:01:03 DEBUG SearchResultsPage:31 - Verify the Search Results page title:Search | LinkedIn
+2022-04-01 09:01:05 DEBUG SearchResultsPage:37 - click on see All People results link
+2022-04-01 09:01:05 DEBUG BasePageWeb:42 - wait for the element to be clickable or not
+2022-04-01 09:01:05 DEBUG SearchDataDrivenTest:61 - click on Home tb
+2022-04-01 09:01:05 DEBUG SearchResultsPage:42 - click on Home tab
+2022-04-01 09:01:05 DEBUG BasePageWeb:42 - wait for the element to be clickable or not
